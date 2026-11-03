@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FINANZAS</title>
+</head>
+<body>
+    <div class ="padre">
+        <div class="hijo">
+            <h2>Administracion de gastos</h2>
+            <label for="monto">Monto</label>
+            <input type="number" name="" id="monto" placeholder="Ej:250000">
+            <label for="Categoria">Categoria</label>
+            <select name="" id="Categoria">
+                <option value=""></option>
+                <option value="">Comida</option>
+                <option value="">Transporte</option>
+                <option value="">Servicios</option>
+                <option value="">Salario</option>
+            </select>
+            <label for="Fecha:">Fecha</label>
+            <input type="date" name="" id="Fecha">
+            <button id="Elboton">GUARDAR</button>
+        </div>
+        <hr>
+        <div class="hijo">
+            <div class ="registro">
+                <h3>Movimientos registrados</h3>
+                <div class= "Ingreso">
+                    <div class="Numerito">
+                    <h4>$250.000</h4>
+                    <h6>Salario</h6>
+                </div>
+                    <button type="">✏️</button>
+                    <button type="">🗑️</button>
+                </div>
+                <div class = "Gasto">
+                    <div class="Numerito">
+                    <h4>$60.000</h4>
+                    <h6>Comida</h6>
+                    </div>
+                    <button type="">✏️</button>
+                    <button type="">🗑️</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="js/juego.js"></script>
+</body>
+</html>

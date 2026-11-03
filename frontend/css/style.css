@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(0, 94, 94);
+}
+#Elboton:hover{
+    background-color: var(--color-fondo)
+}
+:root{
+    --color-fondo: #231ad3;
+    --color-ingreso: #c40808;
+    --color-gasto: #02626b;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg,#841616,#441156,#280170);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.padre{
+    border: 1px solid var(--color-gasto);
+    max-width: 90%;
+    padding: 5%;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    border-radius: 20%;
+    background-color: white;
+}   
+.hijo{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--color-ingreso);
+    padding: 3%;
+    border-radius: 15%;
+}
+.registro{
+    justify-content: space-between;
+    margin: 2%;
+    display: flex;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    margin:10px
+
+}
+
+
+button{
+    margin: 10px;
+    border: none;
+    background-color: #02626b;
+    height: 20px;
+    border-radius: 15%;
+}
+.boton{
+    width: 300px;    
+}
+input{
+    border-radius: 20%;
+}
+.Ingreso{
+    width: 220px;
+   
+   display: flex;
+   justify-content: space-between;
+   margin: 10px;
+   background-color: burlywood;
+   padding: 10px 15px;
+   border-radius: 15px;
+   
+}
+.Gasto{
+        width: 220px;
+   display: flex;
+   justify-content: space-between;
+   margin: 10px;
+   background-color: burlywood;
+   border-radius: 15px;
+   padding: 10px 15px;
+}
+.Ingreso h4{
+   color: green; 
+}
+.Ingreso h6{
+    color: grey;
+}
+.Gasto h4{
+    color: orangered;
+}
+.Gasto h6{
+    color: grey;
+}
+.Numerito{
+    display: flex;
+    flex-direction: column;
+}
+.Gasto button{
+    width: 90px;
+}
+.Ingreso button{
+    width: 100px;
+}
